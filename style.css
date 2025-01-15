@@ -1,51 +1,39 @@
 body {
+  padding-top: 6%;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  text-align: center;
+  margin: 20px;
+  background-image: url("NDg2MmViN2EtM2MxMS00NWM5LWFkOTUtMjI4MmFiNWM5ZTNi_f8d8ac9d-5e5f-4589-ab19-0b31d0b6f1f8_culinaire2-scaled.jpg");
+}
+#display {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #f9f9f9;
+  gap: 120px;
+  margin-top: 20px;
 }
-h1 {
-  color: #333;
-}
-.container {
-  width: 80%;
-  max-width: 800px;
-  background: #fff;
-  padding: 20px;
+.recipe {
+  border: 1px solid #ddd;
+  padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  width: 300px;
+  background-color: #b98d66;
 }
-.meal, .desserts {
-  margin-bottom: 20px;
-}
-.dessert-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.dessert {
-  background: #f1f1f1;
-  padding: 10px;
-  border-radius: 5px;
-  width: calc(50% - 10px);
-  box-sizing: border-box;
+.recipe img {
+  max-width: 100%;
+  border-radius: 8px;
 }
 button {
   padding: 10px 20px;
   font-size: 16px;
+  background-color: #28a745;
+  color: white;
   border: none;
   border-radius: 5px;
-  background-color: #007BFF;
-  color: white;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 button:hover {
-  background-color: #0056b3;
+  background-color: #218838;
+}
+h1 {
+  color: aliceblue;
 }
